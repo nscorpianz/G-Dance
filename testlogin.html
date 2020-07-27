@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        /* .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        } */
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .navbar {
+            background-color: black;
+            margin: 0px -16px;
+            opacity: 0.5;
+        }
+        .loginform {
+            /* border: 7px solid #564c4c;
+            border-radius: 55%;
+            height: 93vh;
+            margin: 0px 191px;
+            background-color: red;
+            box-shadow: -389px -168px 0px -185px;    */
+        }
+        
+        .loginform form {
+            background-color: rgb(250, 211, 174);
+            margin: 15vh auto;
+            padding: 10px 10px;
+            height: 45vh;
+            width: 75vh;
+            border: 4px solid black;
+            border-radius: 20px;
+            box-shadow: -10px 5px 18px 5px black;
+            color: black;
+            
+        }
+        
+        .loginform form input {
+            border: 1px solid;
+        }
+
+        footer p {
+            background-color: black;
+            color: white;
+            margin: 0px -15px;
+            position: fixed;
+            display: block;
+            bottom: 0px;
+            width: 100%;
+            text-align: center;
+            opacity: 0.7;
+        }
+    </style>
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar">
+            <a class="navbar-brand" href="#">
+                <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30"
+                    class="d-inline-block align-top" alt="">
+                Bootstrap
+            </a>
+        </nav>
+        <div class="loginform d-flex justify-content-center align-items-center align-self-center">
+            <form class="p-2">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email"><span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+        </div>
+        <footer>
+            <p class="text-muted"> &copy; 2020 All Rigths Reserved</p>
+        </footer>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

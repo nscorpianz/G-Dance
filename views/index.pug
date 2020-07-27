@@ -1,0 +1,61 @@
+doctype html
+html
+  head
+    title G-Dance Academy
+    style
+        include ../static/css/style.css
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="../static/img/ballerina-2024547_640.png")
+          | GDA
+        li #[a(href="/") Home]
+        li #[a(href="/") About us]
+        li #[a(href="/") Class info]
+        li #[a(href="/") Services]
+        li #[a(href="/") Contact us]
+
+    section#introSection
+      div Welcome to Gagan's Dance Classes
+      div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+      h1 Our Mission
+      div.card
+        h3 Dance Perfection
+        div.card-box
+          div.card-img
+            img(src="../static/img/ballerina-2024547_640.png")
+          div.card-content
+            | This is card number 1  
+      div.card
+        h3 Dance the way You like
+        div.card-box
+          div.card-img
+            img(src="../static/img/ballet-dancer-5334869_640.png")
+          div.card-content
+            | This is card number 2  
+      div.card
+        h3 Expert Teaching
+        div.card-box
+          div.card-img
+            img(src="../static/img/music-5086395_640.png")
+          div.card-content
+            | This is card number 3  
+
+    section#sponsorsSection  
+      h1 Our Sponsors
+      div#sponsors
+        img(src="../static/img/sponsor/apple-1293886_640.png",alt="sponsers logo",class="spImage")
+        img(src="../static/img/sponsor/bmw-1596080_640.png",alt="sponsers logo",class="spImage")
+        img(src="../static/img/sponsor/brand-2625450_640.png",alt="sponsers logo",class="spImage")
+        img(src="../static/img/sponsor/google-102793_640.png",alt="sponsers logo",class="spImage")
+        img(src="../static/img/sponsor/icons-847262_640.png",alt="sponsers logo",class="spImage")
+        img(src="../static/img/sponsor/jaguar-2572574_640.png",alt="sponsers logo",class="spImage")
+
+    footer#footer
+      | section for our footer
+
+    script
+        include ../static/js/script.js 

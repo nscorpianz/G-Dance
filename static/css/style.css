@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lacquer', cursive;
+}
+
+#navbar {
+    background-color: teal;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* height: 15vh; */
+    padding: 20px;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection {
+    height: 400px;
+    background: center / cover no-repeat url('../static/img/dance-430554_1280.jpg');
+    /* background-color: red; */
+    color: red;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Metal Mania', cursive;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    /* text-align: center; */
+}
+
+#introSection .small {
+    font-size: 2rem;
+    color: yellow;
+    background-color: black;
+    opacity: 0.6;
+}
+
+#missionSection{   
+    height: 300px;
+    /* background-color: wh; */
+    text-align: center;
+    padding: 10px 2px;
+    
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    /* font-size: 1.5rem;
+    font-weight: bold; */
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+#logo {
+    display: flex;
+    color: gold;
+    align-items: center ;
+    margin: 0px 100px;
+}
+
+#logo img {
+    margin: -20px 0px;
+    height: 58px;
+    filter: invert();
+}
+
+.card {
+    border: 2px solid;
+    border-radius: 10px;
+    width: 30%;
+    height: 200px;
+    margin: 20px 10px;
+    display: inline-block;
+    background-color: #e3e3e3;     
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    padding: 10px 0px;
+}
+
+.card-img{
+    height: 150px;
+    padding: 0px 10px;
+}
+
+.card-img img{
+    /* height: 140px; */
+    height: inherit;
+}
+
+.card-content{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+
+#sponsorsSection{   
+    height: 300px;
+    background-color: yellow;
+    text-align: center;
+    padding: 10px 2px;
+    /* font-size: 1.5rem;
+    font-weight: bold; */
+}
+
+#footer{
+    background-color: black;
+    bottom: 0px;
+    color: white;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    text-align: center;    
+}
+
+#sponsors {
+    height: 100px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+.spImage{
+    height: inherit;
+    margin: 40px 20px;
+}
+/* 
+section#sponsorsSection  
+      h1 Our Sponsors
+      //- div#sponsors
+      //-   img(src="../static/img/sponsor/apple-1293886_640.png",alt="sponsers logo",class="spImage")
+      //-   img(src="../static/img/sponsor/bmw-1596080_640.png",alt="sponsers logo",class="spImage")
+      //-   img(src="../static/img/sponsor/brand-2625450_640.png",alt="sponsers logo",class="spImage")
+      //-   img(src="../static/img/sponsor/google-102793_640.png",alt="sponsers logo",class="spImage")
+      //-   img(src="../static/img/sponsor/icons-847262_640.png",alt="sponsers logo",class="spImage")
+      //-   img(src="../static/img/sponsor/jaguar-2572574_640.png",alt="sponsers logo",class="spImage")
+
+*/
